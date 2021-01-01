@@ -1,9 +1,15 @@
 import './App.css';
 
+import Layout from './components/hoc/Layout/Layout';
+import Search from "./components/Search/Search";
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Zomato-clone</h1>
+      <Layout>
+        <Search />
+      </Layout>
     </div>
   );
 }

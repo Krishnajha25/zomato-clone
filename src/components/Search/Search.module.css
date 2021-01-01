@@ -1,0 +1,60 @@
+.Search {
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.Heading {
+    margin: 20% 0 5%;
+    font-size: 2.8rem;
+    font-style: oblique;
+}
+
+.SubHeading {
+    font-size: 1.2rem;
+    width: 90%;
+    margin : 0 auto;
+    line-height: 1.8;
+}
+
+.InputBoxes {
+    height: 30%;
+    width: 90%;
+    margin:10% auto 5%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.InputBox {
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.IconText {
+    display: flex;
+    align-content: center;
+}
+
+.PlaceholderText {
+    margin: 4px;
+    color : #666;
+}
+
+.InputIcon {
+    color: red;
+    padding: 0 4px 0 8px;
+}
+
+.ArrowDown {
+    padding: 0 8px;
+}
+

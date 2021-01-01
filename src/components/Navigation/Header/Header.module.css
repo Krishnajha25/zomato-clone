@@ -1,0 +1,16 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    height: 20%;
+}
+
+.GetApp {
+    gap: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.Profile {
+
+}
