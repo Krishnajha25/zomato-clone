@@ -1,14 +1,17 @@
 body {
+  color: white;
   margin: 0;
+<<<<<<< HEAD
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+=======
+  font-family: Okra, Helvetica, sans-serif;
+>>>>>>> b9c8b2c32e5c5079b41e757a236218aec10ed390
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+/* Okra,Helvetica,sans-serif */

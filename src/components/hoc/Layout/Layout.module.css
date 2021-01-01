@@ -1,0 +1,19 @@
+.Layout {
+    
+}
+
+.BackgroundImage {
+    position: absolute;
+    z-index: -10;
+    height: 70%;
+    width: 100%;
+    overflow: clip;
+}
+
+.Backdrop {
+    position: absolute;
+    z-index: -5;
+    height: 70%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+}
