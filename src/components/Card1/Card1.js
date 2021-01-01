@@ -6,14 +6,22 @@ import { CardContent, Typography, CardMedia, makeStyles } from '@material-ui/cor
 const useStyles = makeStyles({
     media: {
         height: 150,
-        width: 150
+        width: "100%"
+    },
+    cardWrapper: {
+        width: '80%',
+        margin: '0 auto',
+        flexGrow: 0,
+        flexShrink: 0,
     },
     card: {
         height: 150,
-        width: 150,
+        width: 175,
         margin: 5,
-        borderRadius: 8,
+        marginTop: 10,
+        borderRadius: 10,
         position: 'relative',
+        flexGrow: 1,
     },
     title: {
         position: 'absolute',
@@ -43,7 +51,7 @@ export default function Card1(props) {
     const classes = useStyles()
 
     return (
-        <div>
+        <div className={classes.cardWrapper} >
             <Card className={classes.card}>
                 <CardActionArea>
                 <CardMedia

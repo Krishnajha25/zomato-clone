@@ -7,7 +7,9 @@
     z-index: -10;
     height: 70%;
     width: 100%;
-    overflow: clip;
+    overflow: hidden;
+    object-fit: contain;
+    /* background-image: url('../../../assets/image/ZomatoBackground.jpg'); */
 }
 
 .Backdrop {
