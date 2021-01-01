@@ -3,6 +3,7 @@ import React from "react";
 import classes from "./Layout.module.css";
 import foodImage from "../../../assets/image/ZomatoBackground.jpg";
 import Header from "../../Navigation/Header/Header";
+
 //style={{backgroundImage: `url(${foodImage})`}}
 const Layout = props => {
     return (
