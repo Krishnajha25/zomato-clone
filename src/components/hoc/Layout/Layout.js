@@ -1,8 +1,8 @@
 import React from "react";
 
 import classes from "./Layout.module.css";
-import foodImage from "../../../assets/image/ZomatoBackground.jpg";
-import Header from "../../Navigation/Header/Header";
+// import foodImage from "../../../assets/image/ZomatoBackground.jpg";
+// import Header from "../../Navigation/Header/Header";
 import Hero from '../../Hero/Hero'
 
 
