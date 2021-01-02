@@ -16,18 +16,18 @@ function App() {
     <div className="App">
       <Layout>
         {/* <Search /> */}
-        <div className="cardContainer" style={{marginBottom: '70px'}}>
+        <div className="cardContainer" style={{marginBottom: '70px', marginTop: 20}}>
           <Card1 img={img} title={title} />
           <Card1 img={img} title={title} />
           <Card1 img={img} title={title} />
           <Card1 img={img} title={title} />
         </div>
-        <Typography color="textPrimary" variant='h5'>
+        {/* <Typography color="textPrimary" variant='h5'>
           Collections
         </Typography>
         <Typography color="textPrimary" variant='p' component='p'>
           Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends.
-        </Typography>
+        </Typography> */}
         <div className="cardContainer">
           <Card2 img={img2} />
           <Card2 img={img2} />

@@ -1,3 +1,7 @@
+.Layout{
+    /* max-width: 800px; */
+}
+
 .BackgroundImage {
     position: absolute;
     z-index: -10;
